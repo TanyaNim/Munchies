@@ -316,7 +316,7 @@ with col2:
     with st.expander("🌿 **What about the munchies?! cannabis?!**"):
         st.markdown("""
         <span style="font-size: 14px;">
-        Cannabis triggers munchies as THC activates brain receptors to boost appetite. Your body has a similar system powered by <strong>endocannabinoids</strong> made from arachidonic acid, which is derived from linoleic acid—a fat in many seed oils.<br>
+        Cannabis triggers munchies as THC activates brain receptors to boost appetite. Your body has a similar system powered by <strong>endocannabinoids</strong> made from arachidonic acid, which is derived(you guessed it!) from linoleic acid—a fat in many seed oils.<br>
         High linoleic acid intake may overstimulate hunger pathways, causing a constant, low-grade munchies effect.<br><br>
         <strong>Results:</strong><br>
         - Increased hunger<br>
