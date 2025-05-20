@@ -118,9 +118,15 @@ exp.markdown("""
 
     # -------------------------------------------------------------------------
 # === File paths ===
-pics_dir = os.path.join(os.getcwd(), "pics")
-spoon_path = os.path.join(pics_dir, "grey_spoon.png")
+
+BASE_DIR = os.path.dirname(__file__)
+spoon_path = os.path.join(BASE_DIR, "grey_spoon.png")
+
 spoon_image = Image.open(spoon_path)
+
+# pics_dir = os.path.join(os.getcwd(), "pics")
+# spoon_path = os.path.join(pics_dir, "grey_spoon.png")
+# spoon_image = Image.open(spoon_path)
 
 # === Helper: convert image to base64 ===
 def spoon_image_to_base64(img):
