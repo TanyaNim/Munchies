@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook hidden folders
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+
+# Data or large files
+*.csv
+*.tsv
+*.zip
+*.tar
+*.gz
+*.h5
+*.pickle
+
+# Ignore everything
+*
+
+# But NOT these files
+!.gitignore
+!requirements.txt
+!chronic_munchies.py
